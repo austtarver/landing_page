@@ -1,0 +1,33 @@
+.header{
+    display:flex;
+    background-color: #1f2937;
+    justify-content: space-evenly;
+}
+
+.logo{
+    color:blueviolet;
+    width:25%;
+    text-align: center;
+}
+
+
+.navbar{
+    display:flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+ul{
+    display:flex;
+   list-style-type: none;
+
+}
+
+li{
+    font-size: 18px;
+    color:#E5E7EB;
+   margin: auto;
+   margin-right:10px;
+}
+
+
+
