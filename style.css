@@ -65,6 +65,7 @@ html, body {
     color: #e5e7eb;
     margin-top: 5px;
     margin-bottom:5px;
+    max-width:474px;
 }
 
 #hero-img{
@@ -101,7 +102,8 @@ html, body {
 
 .info-text-container{
     display: flex;
-    width: 100%;
+    width: 80%;
+    min-width: 79%;
     justify-content: center;
     gap: 150px;
 }
@@ -124,6 +126,10 @@ html, body {
 }
 
 .bx-quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #e5e7eb;
@@ -137,7 +143,7 @@ html, body {
 .quote-text{
     margin: 50px 0 50px 0;
     width: 800px;
-    margin-left: 287px;
+    
     display:flex;
     flex-direction: column;
     align-items: center;
